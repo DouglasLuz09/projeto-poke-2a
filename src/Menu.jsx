@@ -1,27 +1,49 @@
 import './Menu.css'
-
+ 
 const Menu =()=>{
-
+ 
     return (
-        <div>
-            <ul className="nav">
-                <li class="nav-item">
-                    <a class="nav-link active" href="/home">
-                        Home
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link " href="/PokeFlex">
-                        PokeFlex
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link a" href="/PokeGrid">
-                        PokeGrid
-                    </a>
-                </li>
-            </ul>
-        </div>
-    )
+ 
+     <div>
+ 
+     <ul className="nav">  
+ 
+    <li className="nav-item">
+     
+     <a className="nav-link active" href="/home">
+     Home
+     </a>
+     </li>
+ 
+ 
+    <li className="nav-item">
+     
+     <a className="nav-link active" href="/pokeflex">
+     PokeFlex
+     </a>
+     </li>
+ 
+ 
+    <li className="nav-item">
+     
+     <a className="nav-link active" href="/pokegrid">
+     PokeGrid
+     </a>
+     </li>
+ 
+ 
+    <li className="nav-item">
+       
+    <a className="nav-link active" href="/viacep">
+     ViaCep
+     </a>
+     </li>
+ 
+     </ul>
+     
+     </div>
+ 
+)
+ 
 }
-export default Menu
+export default Menu 

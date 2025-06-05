@@ -1,0 +1,13 @@
+#cep {
+  
+    width: 100px;
+    background-color: cadetblue;
+}
+#botao {
+
+    width: 100px;
+    color: black;
+    background-color: aqua;
+    border-radius: 8px;
+
+}
